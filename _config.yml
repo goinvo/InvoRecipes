@@ -17,10 +17,13 @@ author:
   name:           'Involution Studios'
   url:            https://twitter.com/goinvo
 
-paginate:         5
-
 # Custom vars
 version:          0.1
 
 github:
   repo:           https://github.com/goinvo/InvoRecipes
+
+collections:
+  recipes:
+    output: true
+    permalink: /recipes/:path/

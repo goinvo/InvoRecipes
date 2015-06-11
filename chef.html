@@ -1,0 +1,12 @@
+---
+layout: default
+title: By Chef
+---
+<h1>Recipes by Chef</h1>
+{% assign collection = site.recipes | group_by: "author" %}
+{% for author in collection %}
+<h2>{{site.data.authors[author.name].name}}</h2>
+	{%for recipe in author.items%}
+<a href="{{recipe.url}}">{{recipe.title}}</a>
+{%endfor%}
+{%endfor%}

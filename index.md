@@ -3,11 +3,10 @@ layout: default
 title: Home
 ---
 
-{% include recipes.md %}
-
-<!-- <div class="posts">
-  <div class="post">
-    <h1 class="post-title"></h1>
-
-  </div>
-</div> -->
+{% assign collection = site.recipes | group_by: "category" %}
+{% for group in collection %}
+<h2>{{group.name}}</h2>
+	{%for recipe in group.items%}
+<a href="{{recipe.url}}">{{recipe.title}}</a>
+{%endfor%}
+{%endfor%}

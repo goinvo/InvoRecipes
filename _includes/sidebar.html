@@ -11,12 +11,6 @@
 
     <nav class="sidebar-nav">
 
-      {% for post in site.posts %}
-        {% unless post.draft %}
-          <a class="sidebar-nav-item{% if post.url == node.url %} active{% endif %}" href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
-        {% endunless %}
-      {% endfor %}
-
       <section class="meta">
       <a href="{{ site.github.repo }}" target="_blank"><i class="fa fa-github"></i> v{{ site.version }}</a>, <a href="mailto:hello@goinvo.com">hello@goinvo.com</a>
     </section>
