@@ -8,8 +8,8 @@ relative_permalinks: true
 
 # Setup
 title:            Recipes
-tagline:          'The recipes we cook for each other @ Invo.'
-description:      'The recipes we cook for each other @ Invo.'
+tagline:          'The meals we cook for each other @ Invo.'
+description:      'The meals we cook for each other @ Invo.'
 url:              http://recipes.goinvo.com
 baseurl:          /
 

@@ -1,8 +1,3 @@
----
-layout: post
-title: Recipes
----
-
 ##Lunch
 
 ### Black Eyed Pea BBQ Stew 
