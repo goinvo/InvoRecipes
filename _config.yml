@@ -1,0 +1,26 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        none
+relative_permalinks: true
+
+# Setup
+title:            Recipes
+tagline:          'The recipes we cook for each other @ Invo.'
+description:      'The recipes we cook for each other @ Invo.'
+url:              http://recipes.goinvo.com
+baseurl:          /
+
+author:
+  name:           'Involution Studios'
+  url:            https://twitter.com/goinvo
+
+paginate:         5
+
+# Custom vars
+version:          0.1
+
+github:
+  repo:           https://github.com/goinvo/InvoRecipes

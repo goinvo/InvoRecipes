@@ -1,0 +1,26 @@
+---
+layout: print
+title: "The recipes we cook for each other @ Invo."
+---
+<section class="title">
+	<h1>Invo Recipes</h1>
+</section>
+<div class="page-break"></div>
+
+<section class="section">
+	<h1>Table of Contents</h1>
+	<ul class="table-of-contents">
+	{% for post in site.posts %}
+		<li>{{post.title}}</li>
+	{% endfor %}
+	</ul>
+</section>
+<div class="page-break"></div>
+
+{% for post in site.posts %}
+	<section class="section">
+	  <h1>{{ post.title }}</h1>
+	  {{post.content}}
+	</section>
+	<div class="page-break"></div>
+{% endfor %}
