@@ -7,7 +7,7 @@ title: Home
 {% for group in collection %}
 <div data-category="{{group.name}}">
 <h2>{{group.name}}</h2>
-<ul>
+<ul class="no-bullets">
 	{%for recipe in group.items%}
 	<li><a href="{{recipe.url}}">{{recipe.title}}</a></li>
 	{%endfor%}

@@ -2,7 +2,7 @@
 layout: recipe
 title:  Flourless Chocolate Cake
 author: sberndt
-category: bakery
+category: dessert
 ---
 
 * 12 ounces bittersweet chocolate chips or semi-sweet chocolate, roughly chopped
