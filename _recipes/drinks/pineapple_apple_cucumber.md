@@ -2,7 +2,7 @@
 layout: recipe
 title: Pineapple-Apple-Cucumber Juice
 author: jsonin
-category: juice
+category: drinks
 yield: 1 bottle
 ---
 

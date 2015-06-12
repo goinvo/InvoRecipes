@@ -2,7 +2,7 @@
 layout: recipe
 title: CAB
 author: jsonin
-category: juice
+category: drinks
 yield: 1 bottle
 ---
 * 1 large green apple

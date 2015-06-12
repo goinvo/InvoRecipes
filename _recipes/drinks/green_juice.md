@@ -2,7 +2,7 @@
 layout: recipe
 title: Green Juice
 author: jsonin
-category: juice
+category: drinks
 yield: 1 bottle
 ---
 * 5 ribs celery

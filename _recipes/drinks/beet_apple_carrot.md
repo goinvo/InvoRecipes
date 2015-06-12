@@ -2,7 +2,7 @@
 layout: recipe
 title: Beet-Apple-Carrot Juice
 author: jsonin
-category: juice
+category: drinks
 yield: 1 bottle
 ---
 * 1 washed and peeled mid-sized beet 

@@ -2,7 +2,7 @@
 layout: recipe
 title: Nut Milk
 author: jsonin
-category: juice
+category: drinks
 yield: 1 bottle
 ---
 * unsalted cashews or almonds

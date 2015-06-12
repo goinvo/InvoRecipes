@@ -2,7 +2,7 @@
 layout: recipe
 title: Banana-Cashew Milk
 author: jsonin
-category: juice
+category: drinks
 yield: 1 bottle
 ---
 * 1 cup raw cashews

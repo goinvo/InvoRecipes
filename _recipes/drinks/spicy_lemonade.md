@@ -2,7 +2,7 @@
 layout: recipe
 title: Spicy Lemonade
 author: jsonin
-category: juice
+category: drinks
 yield: 1 bottle
 ---
 * 14 oz filtered water

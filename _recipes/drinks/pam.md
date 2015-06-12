@@ -2,7 +2,7 @@
 layout: recipe
 title: PAM
 author: jsonin
-category: juice
+category: drinks
 yield: 1 bottle
 ---
 * 1/3 pineapple

@@ -2,7 +2,7 @@
 layout: recipe
 title: Green Juice #2
 author: jsonin
-category: juice
+category: drinks
 yield: 1 bottle
 ---
 * 1 large handful of kale

@@ -22,3 +22,6 @@ ul.no-bullets{
 .content{
 	padding-top:2rem;
 }
+.lighter{
+	color:rgba(0,0,0,.5);
+}

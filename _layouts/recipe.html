@@ -4,6 +4,8 @@ layout: default
 
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>
-  <h3>({{site.data.authors[page.author].name}})</h3>
+  <h4>{{site.data.authors[page.author].name}}, <span class="lighter">{{page.yield}}</span></h4>
+  
+  
   {{ content }}
 </div>
