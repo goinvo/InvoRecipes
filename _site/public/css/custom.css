@@ -9,3 +9,6 @@
 .content h3 {
 	font-size: 23px;
 }
+[data-category="listing"]{
+	display:none;
+}

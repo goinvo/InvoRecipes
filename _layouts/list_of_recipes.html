@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<div class="post">
+  <h1 class="post-title">{{ page.category_for_list }}</h1>
+  {{ content }}
+  <ul>
+  	{%assign all_recipes = site.recipes | where:"category",page.category_for_list%}
+  	{% for recipe in all_recipes %}
+		<li><a href="{{recipe.url}}">{{recipe.title}}</a></li>
+  	{%endfor%}
+  </ul>
+</div>

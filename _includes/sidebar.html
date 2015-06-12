@@ -1,4 +1,15 @@
 <div class="sidebar">
+  <ul>
+  {% assign collection = site.recipes | group_by: "category" %}
+  {% for group in collection %}
+    <li data-category="{{group.name}}"><a href="/recipes/{{group.name}}">{{group.name}}</a></li>
+  {%endfor%}
+  </ul>
+  <ul>
+
+  <li><a href="/">By Category</a>
+  <li><a href="/chef.html">By Chef</a>
+  </ul>
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
       <h1>
