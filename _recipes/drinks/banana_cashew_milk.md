@@ -1,7 +1,7 @@
 ---
 layout: recipe
 title: Banana-Cashew Milk
-author: jsonin
+author: jpatel
 category: drinks
 yield: 1 bottle
 ---

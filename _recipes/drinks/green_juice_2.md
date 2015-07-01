@@ -1,7 +1,7 @@
 ---
 layout: recipe
 title: Green Juice #2
-author: jsonin
+author: jpatel
 category: drinks
 yield: 1 bottle
 ---
