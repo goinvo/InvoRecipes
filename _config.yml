@@ -1,9 +1,10 @@
 # Dependencies
 markdown:         redcarpet
-highlighter:      rouge
+highlighter:      pygments
 
 # Permalinks
 permalink:        none
+relative_permalinks: true
 
 # Setup
 title:            Recipes
